@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import "materialize-css";
 import { TodosPage } from "./page/TodosPage";
 import { AboutPage } from "./page/AboutPage";
+import "materialize-css";
 
 const App: React.FC = () => {
   return (
